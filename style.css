@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.btn_wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn_wrap button{
+    background-color: #57B846;
+    border: none;
+    outline: none;
+    padding: 7px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    padding-right: 40px;
+    transition: .5s;
+    color: #fff;
+}
+.icon{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
+}
+.btn_wrap:hover button{
+    background-color: #333333;
+}
+.btn_wrap:hover .icon{
+    transform: translate(10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
